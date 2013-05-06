@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Days+One);
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Days One', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  width: 800px;
+}
