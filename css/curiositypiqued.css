@@ -14,8 +14,14 @@ h1 {
 .index h1 {
   position: fixed;
   left: 20px;
-  bottom: 10px;
+  top: 10px;
   margin: 0;
+}
+
+.index .my-info {
+  position: fixed;
+  left: 20px;
+  top: 30px;
 }
 
 .container {
