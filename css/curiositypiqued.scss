@@ -4,6 +4,11 @@
  * #354b5e, #475f77, #d74b4b, #dcddd8
  */
 
+$main_text_color: #354b5e;
+$secondary_text_color: #475f77;
+$accent_text_color: #d74b4b;
+$accent_color: #dcddd8;
+
 body {
   text-align: center;
   color: #333;
@@ -14,7 +19,7 @@ h1 {
   font-family: "Pontano Sans", sans-serif;
   font-weight: 100;
   font-size: 32px;
-  color: #354b5e;
+  color: $main_text_color;
 }
 
 .container {
@@ -45,22 +50,22 @@ h2 {
   padding: 0 0 0 15px;
   width: 600px;
   margin: 0;
-  border-left: 1px solid #dcddd8;
-}
+  border-left: 1px solid $accent_color;
 
-.posts a {
-  color: #d74b4b;
-  text-decoration: none;
-}
+  a {
+    color: $accent_text_color;
+    text-decoration: none;
+  }
 
-.posts li {
-  text-align: left;
-}
+  li {
+    text-align: left;
+  }
 
-.posts a h2 {
-  text-decoration: none;
-  font-size: 35px;
-  color: #354b5e;
+  a h2 {
+    text-decoration: none;
+    font-size: 35px;
+    color: $main_text_color;
+  }
 }
 
 .footer {
