@@ -7,30 +7,18 @@
 body {
   text-align: center;
   color: #333;
+  height: 100%;
 }
 
 h1 {
-  font-family: Geneva, Verdana, sans-serif;
+  font-family: "Pontano Sans", sans-serif;
   font-weight: 100;
   font-size: 32px;
   color: #354b5e;
 }
 
-.index h1 {
-  position: fixed;
-  left: 20px;
-  top: 10px;
-  margin: 0;
-}
-
-.index .my-info {
-  position: fixed;
-  left: 20px;
-  top: 30px;
-}
-
 .container {
-  width: 600px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -42,25 +30,39 @@ p {
 }
 
 h2 {
-  font-family: "Pontano Sans";
+  font-family: "Pontano Sans", sans-serif;
+  font-weight: 100;
 }
 
-#post-index {
+.sidebar {
+  float: left;
+  width: 280px;
+}
+
+.posts {
+  float: right;
   list-style: none;
-  padding: 0;
+  padding: 0 0 0 15px;
+  width: 600px;
+  margin: 0;
+  border-left: 1px solid #dcddd8;
 }
 
-#post-index a {
+.posts a {
   color: #d74b4b;
   text-decoration: none;
 }
 
-#post-index li {
+.posts li {
   text-align: left;
 }
 
-#post-index a h2 {
+.posts a h2 {
   text-decoration: none;
   font-size: 35px;
   color: #354b5e;
+}
+
+.footer {
+  clear: both;
 }
