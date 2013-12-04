@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 
-h1 {
+.index h1, .site-name, .post h1 {
   font-family: "Pontano Sans", sans-serif;
   font-weight: 100;
   font-size: 32px;
@@ -51,6 +51,25 @@ h2 {
     height: 200px;
     width: 100%;
   }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.post {
+  width: 600px;
+
+  h1 {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+
+.date {
+  font-family: "Pontano Sans", sans-serif;
+  font-size: 14px;
+  color: $secondary_text_color;
 }
 
 .posts {
@@ -59,12 +78,6 @@ h2 {
   padding: 0 0 0 15px;
   width: 600px;
   margin: 0;
-
-  .date {
-    font-family: "Pontano Sans", sans-serif;
-    font-size: 14px;
-    color: $secondary_text_color;
-  }
 
   a {
     color: $accent_text_color;
