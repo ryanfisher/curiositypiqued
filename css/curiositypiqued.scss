@@ -11,7 +11,6 @@ $accent_color: #dcddd8;
 
 body {
   text-align: center;
-  color: #333;
   height: 100%;
 }
 
@@ -29,9 +28,10 @@ h1 {
 
 p {
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 16px;
+  color: #555;
   line-height: 27px;
-  text-align: left;
+  text-align: justify;
 }
 
 h2 {
@@ -40,17 +40,31 @@ h2 {
 }
 
 .sidebar {
-  float: left;
+  float: right;
   width: 280px;
+
+  .icon {
+    background-image: url('/images/thinker.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
 }
 
 .posts {
-  float: right;
+  float: left;
   list-style: none;
   padding: 0 0 0 15px;
   width: 600px;
   margin: 0;
-  border-left: 1px solid $accent_color;
+
+  .date {
+    font-family: "Pontano Sans", sans-serif;
+    font-size: 14px;
+    color: $secondary_text_color;
+  }
 
   a {
     color: $accent_text_color;
@@ -64,6 +78,7 @@ h2 {
   a h2 {
     text-decoration: none;
     font-size: 35px;
+    margin-bottom: 0;
     color: $main_text_color;
   }
 }
